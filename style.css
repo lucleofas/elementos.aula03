@@ -3,3 +3,15 @@
     margin: 0;
     box-sizing: border-box;
 }
+ body{ /** marca essa formatação na cabeça */
+    display: flex; /** sem ele o justify não funciona*/
+    justify-content: center; /** centraliza*/
+    align-items: center; /** centraliza*/
+    flex-direction: column; /** coloca um embaixo do outro*/
+    gap: 32px; /** */
+    height: 100vh;/** coloca no meio da tela*/
+ }
+ table th, td {
+    border: 1px solid black;
+    padding: 16px;
+ }

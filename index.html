@@ -7,7 +7,30 @@
     <script src="./java.js" defer></script>
     <title>PRODUTOS</title>
 </head>
-<body>
-    
+<body  id="body" >
+    <div id="container" >
+        <input id="nome-produto" type="text" placeholder="Digite o nome do produto">
+        <input id="qtd-produto" type="text" placeholder="Digite a quantidade do produto">
+        <input id="preco-produto" type="text" placeholder="Digite o preço do produto">
+        <button id="cadastrar">Cadastrar</button>
+    </div>
+    <table>
+        <thead> <!--seria o corpo da tabela-->
+            <tr> <!--SERIA A LINHA DA TABELA, COMO SE FOSSE O DIV-->
+                <th>Código</th> <!--titulos da tabela-->
+                <th>Produto</th>
+                <th>Qtde</th>
+                <th>Preço</th>
+            </tr>
+        </thead>
+        <tbody id="tabela" >
+            <tr>
+                <td>12B</td>
+                <td>Mouse</td>
+                <td>50</td>
+                <td>98,99</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>
